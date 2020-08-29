@@ -5,13 +5,14 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
-    "jshint": "^2.12.0"
+    "jshint": "^2.12.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "jasmine": "^3.6.1"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node server_time.js",
     "test": "jasmine"
   },
   "repository": {
