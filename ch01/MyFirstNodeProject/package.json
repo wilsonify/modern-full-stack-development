@@ -1,0 +1,29 @@
+{
+  "name": "my-first-node-project",
+  "version": "1.0.0",
+  "description": "gotta walk before you can run",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jshint": "^2.12.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.6.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsonify/modern-full-stack-development.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "t-storm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsonify/modern-full-stack-development/issues"
+  },
+  "homepage": "https://github.com/wilsonify/modern-full-stack-development#readme"
+}
