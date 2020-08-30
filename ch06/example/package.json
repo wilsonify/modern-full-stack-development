@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "tsc --outFile main.js file1.ts file2.ts app.ts",
+    "build": "tsc --sourceMap --outFile main.js file1.ts file2.ts app.ts ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
