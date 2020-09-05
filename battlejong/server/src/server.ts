@@ -13,7 +13,7 @@ const players: any = { };
 // Construct Express server for client resources.
 const app: Express = express();
 app.use("/", express.static(path.join(__dirname, "../../client/dist")));
-app.listen(80, () => {
+app.listen(8082, () => {
   console.log("BattleJong Express server ready");
 });
 
